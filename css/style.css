@@ -404,7 +404,16 @@ header {
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed
+}
+
+@media only screen and (max-width: 768px) {
+  .home_intro {
+    background-size: contain;
+    background-position: initial;
+  }
+  .box {
+    width: 100% !important;
+  }
 }
 
 .into_firefly {
